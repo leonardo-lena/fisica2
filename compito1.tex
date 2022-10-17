@@ -1,0 +1,63 @@
+\documentclass{scrartcl}
+\usepackage{physics}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+
+\renewcommand{\phi}{\varphi}
+
+\begin{document}
+\section*{Problema 2}
+    Pongo un sistema di coordinate cartesiane con l'asse \(y\) rivolto verso il basso.
+    Imposto il sistema di equazioni differenziali
+    \begin{equation}
+        \begin{cases}
+            m \ddot \phi_1 = -k \phi -k(\phi_1 - \phi_2) + mg \\
+            m \ddot \phi_2 = -k (\phi_2 - \phi_1)
+        \end{cases}
+    \end{equation}
+    Definisco \(\omega_0^2 := \frac{k}{m}\) e riscrivo il sistema portando in forma normale.
+    \begin{equation}
+        \begin{cases}
+            \ddot \phi_1 - \omega_0^2 \qty(2 \phi_1 - \phi_2) = g \\
+            \ddot \phi_2 - \omega_0^2 \qty(\phi_2 - \phi_1) = g
+        \end{cases}
+    \end{equation}
+    Per trovare i moti normali cerco le soluzioni al sistema del tipo \(\phi_1 = A e^{i\omega t}\) e \(\phi_2 = B e^{i \omega t}\) con \(A, B \in \mathbb{R}\).
+    Calcolo le derivate seconde \(\ddot \phi_1 = - \omega^2 \phi_1\) e \(\ddot \phi_2 = - \omega^2 \phi_2\) e sostituisco nel sistema (2) rimuovendo la costante \(g\) per risolvere il sistema omogeneo.
+    \begin{equation}
+        \begin{cases}
+            - \omega^2 A e^{i \omega t} = - \omega_0^2 \qty(2A -B) e^{i \omega t} \\
+            - \omega^2 B e^{i \omega t} = - \omega_0^2 \qty(B-A) e^{i \omega t}
+        \end{cases}
+    \end{equation}
+    Posso dividere tutto per \(e^{i \omega t}\) siccome non è mai nullo e definire \(\lambda = \frac{\omega^2}{\omega_0^2}\) per ottenere il sistema
+    \begin{equation}
+        \begin{cases}
+            \lambda A = 2A-B \\
+            \lambda B = B-A
+        \end{cases}
+    \end{equation}
+    Che può essere riscritto come
+    \begin{equation}
+        \lambda \begin{bmatrix} A \\ B \end{bmatrix} = \begin{bmatrix} 2 & -1 \\ -1 & 1 \end{bmatrix} \begin{bmatrix} A \\ B \end{bmatrix} = M \begin{bmatrix} A \\ B \end{bmatrix}
+    \end{equation}
+    Ciò equivale a trovare gli autovalori della matrice \(M\). I rispettivi autovettori saranno due soluzioni linearmente indipendenti del sistema, il che ci permette di trovarle tutte a meno di combinazione lineare.
+    \begin{equation}
+        \lambda_1 = \frac{3+\sqrt{5}}{2} \quad u_1 = \begin{bmatrix} \frac{\sqrt{5}-1}{2} \\ 1 \end{bmatrix} \qquad \lambda_2 = \frac{3-\sqrt{5}}{2} \quad u_2 = \begin{bmatrix} -1 \\ \frac{\sqrt{5}+1}{2} \end{bmatrix}
+    \end{equation}
+    Ciò significa che il sistema fisico ha due moti normali linearmente indipendenti, rispettivamente con pulsazioni
+    \[\omega_1 = \omega_0 \sqrt{\frac{3+\sqrt{5}}{2}} \qquad \omega_2 = \omega_0 \sqrt{\frac{3-\sqrt{5}}{2}}\]
+    Cerco ora una soluzione particolare che, per il criterio di somiglianza sarà del tipo \(\Gamma = \begin{bmatrix}\gamma_1 \\ \gamma_2\end{bmatrix} = \) costante, dunque con derivate nulle. Sostituisco tale \(\Gamma\) nel sistema (2) per ottenere
+    \begin{equation}
+        \begin{cases}
+            2 \gamma_1 -\gamma_2 = \frac{g}{\omega_0^2} \\
+            - \gamma_1 + \gamma_2 = \frac{g}{\omega_0^2}
+        \end{cases}
+    \end{equation}
+    Il che mi porta alla soluzione \(\Gamma = \begin{bmatrix}2 \\ 3\end{bmatrix} \frac{g}{\omega_0^2}\).
+    Il moto generico del sistema fisico avrà dunque equazione
+    \begin{equation}
+        \Phi = \alpha \Phi_1 + \beta \Phi_2 + \Gamma 
+    \end{equation}
+    \[\Phi = \mqty[\phi_1 \\ \phi_2] \qquad \Phi_1 = u_1 e^{i \omega t} \qquad \Phi_2 = u_2 e^{i \omega t}\]
+\end{document}
