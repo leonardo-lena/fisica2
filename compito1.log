@@ -1,18 +1,71 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.12) (preloaded format=xelatex 2021.10.31)  17 OCT 2022 16:34
-entering extended mode
-**c:/Users/leona/Documents/GitHub/fisica2/compito1.tex
-(c:/Users/leona/Documents/GitHub/fisica2/compito1.tex
-LaTeX2e <2020-10-01> patch level 2
-L3 programming layer <2020-12-07> xparse <2020-03-03> (C:\Users\leona\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrartcl.cls
-Document Class: scrartcl 2020/09/21 v3.32 KOMA-Script document class (article)
-(C:\Users\leona\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.sty
-Package: scrkbase 2020/09/21 v3.32 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
- (C:\Users\leona\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
-Package: scrbase 2020/09/21 v3.32 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
- (C:\Users\leona\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.sty
-Package: scrlfile 2020/09/21 v3.32 KOMA-Script package (file load hooks)
- (C:\Users\leona\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-hook.sty
-Package: scrlfile-hook 2020/09/21 v3.32 KOMA-Script package (using LaTeX hooks)
+This is LuaHBTeX, Version 1.13.0 (MiKTeX 21.3) (format=lualatex 2021.4.10)  22 OCT 2022 16:09
+ restricted system commands enabled.
+ file:line:error style messages enabled.
+**c:/Users/Leonardo/Documents/GitHub/fisica2/compito1.tex
+(c:/Users/Leonardo/Documents/GitHub/fisica2/compito1.tex
+LaTeX2e <2020-10-01> patch level 4
+Lua module: luaotfload 2021-01-08 3.17 Lua based OpenType font support
+Lua module: lualibs 2020-12-30 2.73 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2020-12-30 2.73 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "C:/Users/Leonardo/AppData/Local/MiK
+TeX/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2021-01-07.lua" from kpse-res
+olved path "C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfloa
+d/fontloader-2021-01-07.lua".
+Lua-only attribute luaotfload@noligature = 1
+Lua-only attribute luaotfload@syllabe = 2
+luaotfload | init : Context OpenType loader version 0x1.8e76c8b439581p+1
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 3
+luaotfload | conf : Root cache directory is "C:/Users/Leonardo/AppData/Local/MiK
+TeX/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filt
+er'.
+Inserting `luaotfload.harf.finalize_hlist' at position 2 in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' at position 1 in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' at position 1 in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' at position 1 in `glyph_info'.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
+. L3 programming layer <2021-02-18>
+(C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrartcl
+.cls
+Document Class: scrartcl 2021/03/17 v3.33 KOMA-Script document class (article)
+
+(C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrkbase
+.sty
+Package: scrkbase 2021/03/17 v3.33 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrbase.
+sty
+Package: scrbase 2021/03/17 v3.33 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrlfile
+.sty
+Package: scrlfile 2021/03/17 v3.33 KOMA-Script package (file load hooks)
+
+(C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrlfile
+-hook.sty
+Package: scrlfile-hook 2021/03/17 v3.33 KOMA-Script package (using LaTeX hooks)
+
 
 LaTeX3 Info: Defining command \BeforeFile with sig. 'm' on line 61.
 
@@ -91,26 +144,42 @@ LaTeX3 Info: Defining command \AfterReadingMainAux with sig. 'om' on line 287.
 LaTeX3 Info: Defining command \protected@immediate@write with sig. 'm+m+m' on
 (LaTeX3)     line 298.
 
- (C:\Users\leona\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
-Package: scrlogo 2020/09/21 v3.32 KOMA-Script package (logo)
-))) (C:\Users\leona\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+
+(C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrlogo.
+sty
+Package: scrlogo 2021/03/17 v3.33 KOMA-Script package (logo)
+)))
+(C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
-))) (C:\Users\leona\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocbasic.sty
-Package: tocbasic 2020/09/21 v3.32 KOMA-Script package (handling toc-files)
+)
+Skipping: [2021/05/01] Usage of raw option list on input line 252.
+Applying: [0000/00/00] compatibility for LaTeX before 2021/05/01 on input line 
+337.
+))
+(C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/tocbasic
+.sty
+Package: tocbasic 2021/03/17 v3.33 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip47
 \scr@dte@tocline@numbox=\box47
 )
 Package tocbasic Info: babel extension for `toc' omitted
 (tocbasic)             because of missing \bbl@set@language on input line 135.
 Class scrartcl Info: File `scrsize11pt.clo' used instead of
-(scrartcl)           file `scrsize11.clo' to setup font sizes on input line 2222.
- (C:\Users\leona\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrsize11pt.clo
-File: scrsize11pt.clo 2020/09/21 v3.32 KOMA-Script font size class option (11pt)
-) (C:\Users\leona\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\typearea.sty
-Package: typearea 2020/09/21 v3.32 KOMA-Script package (type area)
+(scrartcl)           file `scrsize11.clo' to setup font sizes on input line 223
+9.
+
+(C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrsize1
+1pt.clo
+File: scrsize11pt.clo 2021/03/17 v3.33 KOMA-Script font size class option (11pt
+)
+luaotfload | db : Font names database loaded from C:/Users/Leonardo/AppData/Loca
+l/MiKTeX/luatex-cache/generic/names/luaotfload-names.luc)
+(C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/typearea
+.sty
+Package: typearea 2021/03/17 v3.33 KOMA-Script package (type area)
 \ta@bcor=\skip48
-\ta@div=\count173
+\ta@div=\count175
 \ta@hblk=\skip49
 \ta@vblk=\skip50
 \ta@temp=\skip51
@@ -131,86 +200,97 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 11.0pt
 (typearea)              \footskip       = 47.6pt
 (typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 1740.
+(typearea)              on input line 1741.
 )
-\c@part=\count174
-\c@section=\count175
-\c@subsection=\count176
-\c@subsubsection=\count177
-\c@paragraph=\count178
-\c@subparagraph=\count179
+\c@part=\count176
+\c@section=\count177
+\c@subsection=\count178
+\c@subsubsection=\count179
+\c@paragraph=\count180
+\c@subparagraph=\count181
 \scr@dte@section@maxnumwidth=\skip53
 Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\section on input line 4795.
+(scrartcl)           for `\section on input line 4846.
 Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\section on input line 4795.
+(scrartcl)           for `\section on input line 4846.
 \scr@dte@part@maxnumwidth=\skip54
 Class scrartcl Info: using compatibility default `afterindent=false'
-(scrartcl)           for `\part on input line 4803.
+(scrartcl)           for `\part on input line 4854.
 \scr@dte@subsection@maxnumwidth=\skip55
 Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\subsection on input line 4813.
+(scrartcl)           for `\subsection on input line 4864.
 Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\subsection on input line 4813.
+(scrartcl)           for `\subsection on input line 4864.
 \scr@dte@subsubsection@maxnumwidth=\skip56
 Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\subsubsection on input line 4823.
+(scrartcl)           for `\subsubsection on input line 4874.
 Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\subsubsection on input line 4823.
+(scrartcl)           for `\subsubsection on input line 4874.
 \scr@dte@paragraph@maxnumwidth=\skip57
 Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\paragraph on input line 4834.
+(scrartcl)           for `\paragraph on input line 4885.
 Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\paragraph on input line 4834.
+(scrartcl)           for `\paragraph on input line 4885.
 \scr@dte@subparagraph@maxnumwidth=\skip58
 Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\subparagraph on input line 4844.
+(scrartcl)           for `\subparagraph on input line 4895.
 Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\subparagraph on input line 4844.
+(scrartcl)           for `\subparagraph on input line 4895.
 \abovecaptionskip=\skip59
 \belowcaptionskip=\skip60
 \c@pti@nb@sid@b@x=\box48
 Package tocbasic Info: babel extension for `lof' omitted
-(tocbasic)             because of missing \bbl@set@language on input line 6076.
+(tocbasic)             because of missing \bbl@set@language on input line 6127.
+
 \scr@dte@figure@maxnumwidth=\skip61
-\c@figure=\count180
+\c@figure=\count182
 Package tocbasic Info: babel extension for `lot' omitted
-(tocbasic)             because of missing \bbl@set@language on input line 6088.
+(tocbasic)             because of missing \bbl@set@language on input line 6139.
+
 \scr@dte@table@maxnumwidth=\skip62
-\c@table=\count181
-Class scrartcl Info: Redefining `\numberline' on input line 6252.
+\c@table=\count183
+Class scrartcl Info: Redefining `\numberline' on input line 6303.
 \bibindent=\dimen138
-) (C:\Users\leona\AppData\Local\Programs\MiKTeX\tex/latex/physics\physics.sty
+)
+(C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/tex/latex/physics/physics.sty
 Package: physics 
- (C:\Users\leona\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty (C:\Users\leona\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2020-12-07 L3 programming layer (loader) 
- (C:\Users\leona\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xetex.def
-File: l3backend-xetex.def 2020-09-24 L3 backend support: XeTeX
-\g__graphics_track_int=\count182
+
+(C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xparse/xp
+arse.sty
+(C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-02-18 L3 programming layer (loader) 
+
+(C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-
+luatex.def
+File: l3backend-luatex.def 2021-03-18 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count184
 \l__pdf_internal_box=\box49
-\g__pdf_backend_object_int=\count183
-\g__pdf_backend_annotation_int=\count184
 ))
-Package: xparse 2020-10-27 L3 Experimental document command parser
- (C:\Users\leona\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse-generic.tex)) (C:\Users\leona\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+(C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xparse/xp
+arse-2020-10-01.sty
+(C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xparse/xp
+arse-generic.tex)))
+(C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip63
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\leona\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
- (C:\Users\leona\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+
+(C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen139
-)) (C:\Users\leona\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+)) (C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsbsy.st
+y
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen140
-) (C:\Users\leona\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+) (C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count185
-LaTeX Info: Redefining \frac on input line 234.
+LaTeX Info: Redefining \frac on input line 236.
 \uproot@=\count186
 \leftroot@=\count187
 LaTeX Info: Redefining \overline on input line 399.
@@ -246,15 +326,17 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
-)) (C:\Users\leona\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+))
+(C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amsfonts.st
+y
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-) (compito1.aux)
-\openout1 = `compito1.aux'.
+) (./compito1.aux)
+\openout1 = compito1.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
@@ -265,8 +347,10 @@ LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 8.
- (C:\Users\leona\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 8
+.
+
+(C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 8.
@@ -279,23 +363,51 @@ LaTeX Font Info:    ... okay on input line 8.
 Package scrbase Info: activating english \contentsname on input line 8.
 Package scrbase Info: activating english \listfigurename on input line 8.
 Package scrbase Info: activating english \listtablename on input line 8.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
- (C:\Users\leona\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
+
+
+(C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
- (C:\Users\leona\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
+
+
+(C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+[1
 
-] [2] (compito1.aux) ) 
-Here is how much of TeX's memory you used:
- 4565 strings out of 412094
- 89760 string characters out of 2847024
- 513557 words of memory out of 3000000
- 24181 multiletter control sequences out of 15000+200000
- 408110 words of font info for 49 fonts, out of 3000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 106i,9n,111p,10663b,270s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Leonardo/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2]
+[3] (./compito1.aux))
 
-Output written on compito1.xdv (2 pages, 15568 bytes).
+Here is how much of LuaTeX's memory you used:
+ 4756 strings out of 478531
+ 100000,552014 words of node,token memory allocated
+ 676 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 49 attribute, 56 glue_spec
+, 49 attribute_list, 1 write nodes
+   avail lists: 1:1,2:472,3:112,4:16,5:340,6:22,7:4168,8:60,9:1030,10:5,11:156
+ 24600 multiletter control sequences out of 65536+600000
+ 47 fonts using 4554607 bytes
+ 111i,11n,110p,10665b,272s stack positions out of 5000i,500n,10000p,200000b,80000s
+<//?/c:/users/leonardo/appdata/local/programs/miktex/fonts/opentype/public/lm/lm
+roman10-regular.otf><//?/c:/users/leonardo/appdata/local/programs/miktex/fonts/o
+pentype/public/lm/lmsans10-bold.otf><C:/Users/Leonardo/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Leonardo/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/Leonardo
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Use
+rs/Leonardo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.p
+fb><C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmr10.pfb><C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmr6.pfb><C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb><C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Leonardo/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Leonardo/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Leonardo
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on compito1.pdf (3 pages, 122407 bytes).
+
+PDF statistics: 70 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+

@@ -6,7 +6,50 @@
 \renewcommand{\phi}{\varphi}
 
 \begin{document}
-\section*{Problema 2}
+
+\section*{Esercizio 1}
+Pongo un sistema di coordinate cartesiane con le \(x\) positive dirette verso la destra del foglio.
+Pongo l'origine di questo sistema di coordinate nella posizione della massa all'equilibrio \(x(t=0) = 0\).
+Una volta aumentata la costante elastica \(k_2' = 3k\), il secondo principio della dinamica impone la condizione
+\begin{equation}
+    -k(\ell+x)+ 3k(\ell-x) = m \ddot{x}
+\end{equation}
+Posso isolare i termini in \(x\) da quelli costanti e definire una nuova quantità \(\omega_0^2 = \frac{k}{m}\)
+\[
+    m\ddot{x} + 4kx -2k\ell = 0
+\]
+\begin{equation}
+    \ddot{x} + 4 \omega_0^2 x = 2 \omega_0^2\ell
+\end{equation}
+Risolvo l'equazione omogenea 
+\[
+    \lambda^2 +4\omega_0^2 = 0 \longrightarrow \lambda = \pm 2 \omega_0 i
+\]
+\begin{equation}
+    x(t) = A\cos(2w_0t) + B\sin(2w_0t) + \overline{x}(t)
+\end{equation}
+dove \(\overline{x}(t)\) rappresenta la soluzione particolare che andremo a cercare tra le funzioni del tipo \(f(t) = \gamma\) costante.
+Siccome \(\dv{\gamma}{t} = 0 \quad \dv[2]{\gamma}{t} = 0\), sostituendo all'interno della (3)
+\[4\omega_0^2 \gamma = 2\omega_0^2 \ell \longrightarrow \gamma = \frac{1}{2}\ell\]
+Da cui otteniamo
+\begin{equation}
+    x(t) = A\cos(2w_0t) + B\sin(2w_0t) + \frac{1}{2}\ell
+\end{equation}
+Impongo le condizioni iniziali \(x(t=0) = 0\) e \(\dot{x}(t=0) = 0\) per trovare i coefficienti \(A\) e \(B\)
+\[x(t=0) = A +\frac{1}{2}\ell = 0 \longrightarrow A = \frac{1}{2}\ell\]
+\[\dot x(t)\eval_{0} = \frac{1}{2}\ell \sin(2\omega_0 t) + B \cos(2\omega_0 t) \eval_{0} = 0 = B\]
+La soluzione della (2) è dunque 
+\begin{equation}
+    x(t) = \frac{1}{2}\ell \cos(2\omega_0 t) = \frac{1}{2}\ell \qty[1-\cos(2\omega_0 t)]
+\end{equation}
+Se la calcolo in \(t^* = \frac{\pi}{4}\sqrt{\frac{m}{k}}\) ottengo
+\begin{equation}
+    x(t^*) = \frac{1}{2}\ell \qty[1-\cos(\frac{\pi}{2})] = \frac{1}{2}\ell
+\end{equation}
+
+\section*{Esercizio 2}
+\subsection*{Parte 1}
+\setcounter{equation}{0}
     Pongo un sistema di coordinate cartesiane con l'asse \(y\) rivolto verso il basso.
     Imposto il sistema di equazioni differenziali
     \begin{equation}
@@ -22,7 +65,7 @@
             \ddot \phi_2 - \omega_0^2 \qty(\phi_2 - \phi_1) = g
         \end{cases}
     \end{equation}
-    Per trovare i moti normali cerco le soluzioni al sistema del tipo \(\phi_1 = A e^{i\omega t}\) e \(\phi_2 = B e^{i \omega t}\) con \(A, B \in \mathbb{R}\).
+    Per trovare i moti normali cerco le soluzioni al sistema del tipo \(\phi_1 = A e^{i\omega t}\) e \(\phi_2 = B e^{i \omega t}\) con \(A, B \in \mathbb{C}\).
     Calcolo le derivate seconde \(\ddot \phi_1 = - \omega^2 \phi_1\) e \(\ddot \phi_2 = - \omega^2 \phi_2\) e sostituisco nel sistema (2) rimuovendo la costante \(g\) per risolvere il sistema omogeneo.
     \begin{equation}
         \begin{cases}
@@ -43,10 +86,10 @@
     \end{equation}
     Ciò equivale a trovare gli autovalori della matrice \(M\). I rispettivi autovettori saranno due soluzioni linearmente indipendenti del sistema, il che ci permette di trovarle tutte a meno di combinazione lineare.
     \begin{equation}
-        \lambda_1 = \frac{3+\sqrt{5}}{2} \quad u_1 = \begin{bmatrix} \frac{\sqrt{5}-1}{2} \\ 1 \end{bmatrix} \qquad \lambda_2 = \frac{3-\sqrt{5}}{2} \quad u_2 = \begin{bmatrix} -1 \\ \frac{\sqrt{5}+1}{2} \end{bmatrix}
+        \lambda_1 = \frac{3-\sqrt{5}}{2} \quad u_1 = \begin{bmatrix} \frac{\sqrt{5}-1}{2} \\ 1 \end{bmatrix} \qquad \lambda_2 = \frac{3+\sqrt{5}}{2} \quad u_2 = \begin{bmatrix} - \frac{\sqrt{5}+1}{2} \\  1\end{bmatrix}
     \end{equation}
     Ciò significa che il sistema fisico ha due moti normali linearmente indipendenti, rispettivamente con pulsazioni
-    \[\omega_1 = \omega_0 \sqrt{\frac{3+\sqrt{5}}{2}} \qquad \omega_2 = \omega_0 \sqrt{\frac{3-\sqrt{5}}{2}}\]
+    \[\omega_1 = \omega_0 \sqrt{\frac{3-\sqrt{5}}{2}} \qquad \omega_2 = \omega_0 \sqrt{\frac{3+\sqrt{5}}{2}}\]
     Cerco ora una soluzione particolare che, per il criterio di somiglianza sarà del tipo \(\Gamma = \begin{bmatrix}\gamma_1 \\ \gamma_2\end{bmatrix} = \) costante, dunque con derivate nulle. Sostituisco tale \(\Gamma\) nel sistema (2) per ottenere
     \begin{equation}
         \begin{cases}
@@ -59,5 +102,28 @@
     \begin{equation}
         \Phi = \alpha \Phi_1 + \beta \Phi_2 + \Gamma 
     \end{equation}
-    \[\Phi = \mqty[\phi_1 \\ \phi_2] \qquad \Phi_1 = u_1 e^{i \omega t} \qquad \Phi_2 = u_2 e^{i \omega t}\]
+    \[\Phi = \mqty[\phi_1 \\ \phi_2] \qquad \Phi_1 = u_1 e^{i \omega_1 t} \qquad \Phi_2 = u_2 e^{i \omega_2 t}\]
+
+    \subsection*{Parte 2}
+    Per trovare le condizioni iniziali prima cerco le \(\phi_1^{eq}\) e \(\phi_2^{eq}\) ossia gli scostamenti delle due masse dallo zero all'equilibrio del sistema, ponendo nulla l'accellerazione nel sistema (2).
+    \begin{equation}
+        \begin{cases}
+            mg - k\phi_1 + k(\phi_2-\phi_1) = 0 \\
+            mg - k(\phi_2-\phi_1) = 0
+        \end{cases}
+    \end{equation}
+    Questo è un sistema lineare che, definendo \(\omega_0^2 = \frac{k}{m}\) porta alle soluzioni:
+    \[\phi_1^{eq} = 2\frac{g}{\omega_0^2} \qquad \phi_2^{eq} = 3\frac{g}{\omega_0^2}\]
+    Confrontando con la soluzione generale del moto del sistema, si può notare come le posizioni d'equilibrio e la soluzione particolare siano uguali. 
+    Ciò è un buon segno in quanto la matematica ci dice che questa formulazione equivale ad un'oscillazione delle due masse attorno alla loro posizione di equilibrio, il che ha fisicamente senso.
+    Ponendo come condizioni iniziali \(\phi_{1, 0} = \phi_1^{eq}\) e \(\phi_{2, 0} = \phi_2^{eq} + 1 \text{cm}\) all'interno della soluzione generale (8) ricaviamo i valori di \(\alpha\) e \(\beta\) per questo particolare set-up del sistema.
+    \[\alpha = \frac{\sqrt{5} - 5}{10} \qquad \beta = \frac{5 - \sqrt{5}}{10}\]
+    Sostituendo questi valori nell'equazione (8) otteniamo quindi
+    \begin{equation}
+        \mqty[\phi_1 \\ \phi_2] = \frac{\sqrt{5}-5}{10} \mqty[\frac{\sqrt{5}-1}{2} \\ 1] e^{it\omega_0\sqrt{\frac{3-\sqrt{5}}{2}}} + \frac{5-\sqrt{5}}{10} \mqty[-\frac{1+\sqrt{5}}{2} \\ 1] e^{it\omega_0\sqrt{\frac{3+\sqrt{5}}{2}}}
+    \end{equation}
+    Infine imponiamo che la velocità iniziale del sistema sia nulla prendendo solo la parte reale di questa equazione, ottenendo la legge oraria del sistema 
+    \begin{equation}
+        \mqty[\phi_1 \\ \phi_2] = \frac{\sqrt{5}-5}{10} \mqty[\frac{\sqrt{5}-1}{2} \\ 1] \cos({t\omega_0\sqrt{\frac{3-\sqrt{5}}{2}}}) + \frac{5-\sqrt{5}}{10} \mqty[-\frac{1+\sqrt{5}}{2} \\ 1] \cos({t\omega_0\sqrt{\frac{3+\sqrt{5}}{2}}})
+    \end{equation}
 \end{document}
