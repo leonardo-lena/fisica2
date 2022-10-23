@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (MiKTeX 21.3) (format=lualatex 2021.4.10)  22 OCT 2022 16:09
+This is LuaHBTeX, Version 1.13.0 (MiKTeX 21.3) (format=lualatex 2021.4.10)  23 OCT 2022 20:13
  restricted system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/Leonardo/Documents/GitHub/fisica2/compito1.tex
@@ -383,10 +383,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Here is how much of LuaTeX's memory you used:
  4756 strings out of 478531
  100000,552014 words of node,token memory allocated
- 676 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 49 attribute, 56 glue_spec
-, 49 attribute_list, 1 write nodes
-   avail lists: 1:1,2:472,3:112,4:16,5:340,6:22,7:4168,8:60,9:1030,10:5,11:156
+ 684 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 51 attribute, 56 glue_spec
+, 51 attribute_list, 1 write nodes
+   avail lists: 1:1,2:484,3:120,4:16,5:340,6:22,7:4168,8:60,9:1030,10:5,11:156
  24600 multiletter control sequences out of 65536+600000
  47 fonts using 4554607 bytes
  111i,11n,110p,10665b,272s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -405,7 +405,7 @@ fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Leonardo/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Leonardo/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Leonardo
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on compito1.pdf (3 pages, 122407 bytes).
+Output written on compito1.pdf (3 pages, 123328 bytes).
 
 PDF statistics: 70 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)

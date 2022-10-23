@@ -36,16 +36,18 @@ Da cui otteniamo
     x(t) = A\cos(2w_0t) + B\sin(2w_0t) + \frac{1}{2}\ell
 \end{equation}
 Impongo le condizioni iniziali \(x(t=0) = 0\) e \(\dot{x}(t=0) = 0\) per trovare i coefficienti \(A\) e \(B\)
-\[x(t=0) = A +\frac{1}{2}\ell = 0 \longrightarrow A = \frac{1}{2}\ell\]
-\[\dot x(t)\eval_{0} = \frac{1}{2}\ell \sin(2\omega_0 t) + B \cos(2\omega_0 t) \eval_{0} = 0 = B\]
+\[x(t=0) = A +\frac{1}{2}\ell = 0 \longrightarrow A = - \frac{1}{2}\ell\]
+\[\dot x(t)\eval_{0} = - \frac{1}{2}\ell \sin(2\omega_0 t) + B \cos(2\omega_0 t) \eval_{0} = 0 = B\]
 La soluzione della (2) è dunque 
 \begin{equation}
-    x(t) = \frac{1}{2}\ell \cos(2\omega_0 t) = \frac{1}{2}\ell \qty[1-\cos(2\omega_0 t)]
+    x(t) = - \frac{1}{2}\ell \cos(2\omega_0 t) + \frac{1}{2} \ell = \frac{1}{2}\ell \qty[1-\cos(2\omega_0 t)]
 \end{equation}
+\[\dot x(t) = - \omega_0 \ell \sin(2\omega_0 t)\]
 Se la calcolo in \(t^* = \frac{\pi}{4}\sqrt{\frac{m}{k}}\) ottengo
 \begin{equation}
     x(t^*) = \frac{1}{2}\ell \qty[1-\cos(\frac{\pi}{2})] = \frac{1}{2}\ell
 \end{equation}
+\[\dot x(t^*) = -\omega_0 \ell \sin(\frac{\pi}{2}) = \ell \omega_0\]
 
 \section*{Esercizio 2}
 \subsection*{Parte 1}
@@ -55,7 +57,7 @@ Se la calcolo in \(t^* = \frac{\pi}{4}\sqrt{\frac{m}{k}}\) ottengo
     \begin{equation}
         \begin{cases}
             m \ddot \phi_1 = -k \phi -k(\phi_1 - \phi_2) + mg \\
-            m \ddot \phi_2 = -k (\phi_2 - \phi_1)
+            m \ddot \phi_2 = -k (\phi_2 - \phi_1) +mg
         \end{cases}
     \end{equation}
     Definisco \(\omega_0^2 := \frac{k}{m}\) e riscrivo il sistema portando in forma normale.
@@ -89,7 +91,7 @@ Se la calcolo in \(t^* = \frac{\pi}{4}\sqrt{\frac{m}{k}}\) ottengo
         \lambda_1 = \frac{3-\sqrt{5}}{2} \quad u_1 = \begin{bmatrix} \frac{\sqrt{5}-1}{2} \\ 1 \end{bmatrix} \qquad \lambda_2 = \frac{3+\sqrt{5}}{2} \quad u_2 = \begin{bmatrix} - \frac{\sqrt{5}+1}{2} \\  1\end{bmatrix}
     \end{equation}
     Ciò significa che il sistema fisico ha due moti normali linearmente indipendenti, rispettivamente con pulsazioni
-    \[\omega_1 = \omega_0 \sqrt{\frac{3-\sqrt{5}}{2}} \qquad \omega_2 = \omega_0 \sqrt{\frac{3+\sqrt{5}}{2}}\]
+    \[\omega_1 = \omega_0 \sqrt{\frac{3-\sqrt{5}}{2}} = 107.0 \text{s}^{-1} \qquad \omega_2 = \omega_0 \sqrt{\frac{3+\sqrt{5}}{2}} = 280.25 \text{s}^{-1}\]
     Cerco ora una soluzione particolare che, per il criterio di somiglianza sarà del tipo \(\Gamma = \begin{bmatrix}\gamma_1 \\ \gamma_2\end{bmatrix} = \) costante, dunque con derivate nulle. Sostituisco tale \(\Gamma\) nel sistema (2) per ottenere
     \begin{equation}
         \begin{cases}

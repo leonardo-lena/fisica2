@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1666447777 "c:/Users/Leonardo/Documents/GitHub/fisica2/compito1.tex" "compito1.pdf" "compito1" 1666447786
+["lualatex"] 1666548825 "c:/Users/Leonardo/Documents/GitHub/fisica2/compito1.tex" "compito1.pdf" "compito1" 1666548835
   "C:/Users/Leonardo/AppData/Local/MiKTeX/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1618068376 123177 51c208a55bf419575026136949ffa31f ""
   "C:/Users/Leonardo/AppData/Local/MiKTeX/luatex-cache/generic/fonts/otl/lmroman6-regular.luc" 1621691395 124358 9951220b7aee8412e599400a4a77e1a5 ""
   "C:/Users/Leonardo/AppData/Local/MiKTeX/luatex-cache/generic/fonts/otl/lmroman8-regular.luc" 1618237555 123984 0460e970faf0811fa6d10f472d31dedf ""
@@ -103,10 +103,10 @@
   "C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfload/luaotfload-tounicode.lua" 1610799066 7528 e07e112222777070250fbc980b2e6b85 ""
   "C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfload/luaotfload-unicode.lua" 1610799066 7589 1d7fd6ab63640cb6c8e2091ac5a57915 ""
   "C:/Users/Leonardo/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfload/luaotfload.lua" 1610799066 13788 c3df7754a82557bc3e50d0714ad8a67c ""
-  "c:/Users/Leonardo/Documents/GitHub/fisica2/compito1.tex" 1666447776 7596 0e272de27860693c9c4b9fa81c88ce4e ""
-  "compito1.aux" 1666447785 68 fea7eea1a0d8a583c281a353f186aaaa "lualatex"
-  "compito1.tex" 1666447776 7596 0e272de27860693c9c4b9fa81c88ce4e ""
+  "c:/Users/Leonardo/Documents/GitHub/fisica2/compito1.tex" 1666548824 7791 1e776594fc4741f563f8414f1b55abcb ""
+  "compito1.aux" 1666548835 68 fea7eea1a0d8a583c281a353f186aaaa "lualatex"
+  "compito1.tex" 1666548824 7791 1e776594fc4741f563f8414f1b55abcb ""
   (generated)
-  "compito1.aux"
   "compito1.pdf"
+  "compito1.aux"
   "compito1.log"
